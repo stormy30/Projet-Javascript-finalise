@@ -1,0 +1,92 @@
+.main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.tabtext{
+    color : #005284;
+    font-weight: bold;
+    padding: 0 5px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.select{
+    background : linear-gradient(#45799E, #005284);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 0 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.rowoption{
+    border: 1px solid black;
+    padding: 20px 20px;
+    text-align: center;
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    background: linear-gradient(#F6F6F6, #D4D4D4);
+}
+
+.info{
+    color : #005284;
+    font-style: italic;
+}
+
+
+.scrollOption, .scrollAcces{
+    width: 100px;
+    margin-bottom: 10px !important;
+    margin-top: 10px;
+}
+
+.rowbilan, .rowinfo{
+    margin-left: inherit !important;
+    margin-right: inherit !important;
+    padding: inherit !important;
+}
+
+.colinfo{
+    padding: inherit !important;
+}
+
+.viewinfo{
+    padding: 20px 20px 5px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 5px;
+    box-shadow: 3px 3px 3px black;
+    background: linear-gradient(#F6F6F6, #D4D4D4);
+}
+
+#models, #marques, .options, .acces{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 720px){
+    *{
+        text-align: center;
+    }
+    #models, #marques{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 0;
+    }
+}
+
+.boxoption{
+    color : #005284;
+}
+.boxacces{
+    color : #005284;
+}
